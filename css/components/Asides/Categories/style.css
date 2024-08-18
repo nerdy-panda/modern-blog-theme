@@ -1,0 +1,18 @@
+
+#aside-categories>.aside-content-container>ul{
+    list-style-position: inside;
+}
+#aside-categories>.aside-content-container>ul>li {
+    margin-bottom: 15px;
+}
+#aside-categories>.aside-content-container>ul>li:last-of-type {
+    margin-bottom: unset;
+}
+#aside-categories>.aside-content-container>ul>li>a {
+    color: inherit;
+    font-size: 18px;
+    text-decoration: none;
+}
+#aside-categories>.aside-content-container>ul>li>a:hover {
+    color: #7254ff;
+}

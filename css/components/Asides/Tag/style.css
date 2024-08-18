@@ -1,0 +1,19 @@
+#aside-tags .aside-content-container ul li {
+    display: inline-block;
+    list-style: none ;
+    margin-right: 10px ;
+    margin-bottom: 10px;
+}
+#aside-tags .aside-content-container ul li a {
+    text-transform: capitalize;
+    text-decoration: none ;
+    color: inherit ;
+}
+#aside-tags .aside-content-container ul li a img {
+    width: 18px ;
+    height: 18px ;
+    vertical-align: -3px;
+}
+#aside-tags .aside-content-container ul li a:hover {
+    color: #7254ff;
+}

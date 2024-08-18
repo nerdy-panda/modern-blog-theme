@@ -1,0 +1,26 @@
+footer#page-footer {
+    position: relative;
+    margin-top: 35px;
+    background-color:#f9f9f9;
+    border-top: 2px solid #f3f3f3;
+    padding: 25px 0;
+}
+#footer-column-container {
+}
+.footer-column {
+    width: 32% ;
+    display: inline-block;
+    vertical-align: top ;
+    margin-right: 6.7%;
+}
+.footer-column:last-child{
+    margin-right: unset ;
+}
+.footer-column-header-container {
+    padding: 15px 0 ;
+    margin-bottom: 14px;
+}
+.footer-column-header-container h4{
+    font-size: 22px ;
+    text-transform: capitalize ;
+}

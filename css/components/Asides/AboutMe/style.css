@@ -1,0 +1,41 @@
+
+#aside-about-me #about-me-avatar-container ,
+#aside-about-me #about-me-author-name-container ,
+#aside-about-me #about-me-author-bio-container
+{
+    margin-bottom: 15px;
+}
+
+#about-me-avatar-container  {
+    text-align: center;
+}
+#about-me-avatar-container img {
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    outline: #efefef solid 2px;
+    outline-offset: 5px;
+}
+
+#about-me-author-name-container h2 {
+    text-align: center ;
+    font-size: 24px ;
+    margin-top: 22px;
+    text-transform: capitalize;
+}
+#about-me-author-bio-container p {
+    text-align: center;
+    line-height: 27px ;
+
+}
+#about-me-social-media-container ul {
+    list-style: none;
+    text-align: center;
+}
+#about-me-social-media-container ul li {
+    display: inline-block;
+}
+#about-me-social-media-container ul li a img {
+    width: 32px;
+    height: 30px;
+}

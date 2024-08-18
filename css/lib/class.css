@@ -3,3 +3,11 @@
 @import url("classes/colors.css");
 @import url("classes/backgrounds.css");
 @import url("classes/boxshadows.css");
+@import url("classes/animations.css");
+.container {
+    width: var(--col-10);
+    margin: 0 auto;
+}
+.clear-both {
+    clear: both;
+}

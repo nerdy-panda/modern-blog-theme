@@ -1,0 +1,57 @@
+#news-letter-footer-column form {
+    position: relative ;
+}
+#news-letter-email-field {
+    color: inherit ;
+    font-family: inherit ;
+    font-size: inherit;
+    width: var(--col-8);
+    border : 1px solid #b0b0b0;
+    border-radius: 3px ;
+    box-sizing: border-box ;
+    padding: 8px ;
+    margin-right: 10px;
+    text-indent: 85px ;
+    transition: text-indent 350ms linear ;
+}
+#news-letter-email-field:focus {
+    outline: unset ;
+    text-indent: 0;
+}
+#news-letter-footer-column label {
+    background-color: white ;
+    position: absolute;
+    left: 1px;
+    top: 3px ;
+    transition: top 250ms linear ;
+    padding: 2px 6px ;
+    border-radius: 3px;
+}
+#news-letter-footer-column label>img {
+    margin-right: 6px ;
+    vertical-align: -7px ;
+}
+#news-letter-email-field:focus+label{
+    top: -18px ;
+}
+#news-letter-footer-column button {
+    background-color: #595959;
+    font-family: inherit;
+    font-size: inherit;
+    color: white ;
+    padding: 3px 10px ;
+    outline: unset;
+    border: unset;
+    border-radius: 3px;
+    transition: background-color 300ms linear ;
+    vertical-align: middle ;
+}
+#news-letter-submit-button:hover {
+    cursor: pointer ;
+    background-color: #7254ff;
+}
+#news-letter-submit-button img {
+    width: 30px ;
+    height: 30px ;
+    vertical-align: -10px ;
+}

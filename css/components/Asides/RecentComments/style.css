@@ -1,0 +1,34 @@
+
+#aside-recent-comments>header>img.aside-section-icon{
+    vertical-align: -9px;
+}
+#aside-recent-comments>.aside-content-container>ul {
+    list-style: none;
+}
+#aside-recent-comments>.aside-content-container>ul>li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+}
+#aside-recent-comments>.aside-content-container>ul>li:first-child {
+    padding-top: unset;
+}
+#aside-recent-comments>.aside-content-container>ul>li:last-child {
+    border-bottom: unset;
+    padding-bottom: unset;
+}
+#aside-recent-comments>.aside-content-container>ul>li a {
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 10px;
+}
+#aside-recent-comments>.aside-content-container>ul>li a:hover {
+    color: #7254ff;
+}
+#aside-recent-comments>.aside-content-container>ul>li a:first-child {
+    text-transform: capitalize;
+}
+#aside-recent-comments>.aside-content-container>ul>li h3 {
+    display: inline;
+    line-height: 24px;
+    font-weight: normal;
+}

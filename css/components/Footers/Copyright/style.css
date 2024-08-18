@@ -1,0 +1,14 @@
+#copyright-container {
+    text-align: center;
+    text-transform: capitalize;
+}
+#copyright-container #copyright {
+    margin-bottom: 20px;
+}
+#copyright-container a {
+    text-underline-offset: 6px ;
+    color: inherit ;
+}
+#copyright-container a:hover {
+    color: #7254ff;
+}

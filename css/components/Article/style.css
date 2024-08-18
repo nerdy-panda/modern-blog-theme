@@ -1,0 +1,148 @@
+
+#article-container article {
+    border-radius: 3px;
+    box-shadow: 0px 3px 6px 0px rgba(140, 149, 159, 0.15);
+    box-shadow: 0px 8px 24px 0px rgba(140, 149, 159, 0.2);
+    margin-bottom: 35px ;
+}
+#article-container article header {
+    background-color: #fafafa;
+    height: 60px;
+    padding: 0 20px ;
+    line-height: 70px;
+    border-radius: 3px 3px 0 0;
+}
+#article-container article header h2 {
+    font-size: 20px;
+}
+#article-container article .article-content-container {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex ;
+    align-items: center ;
+    box-sizing: border-box;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+#article-container article .article-content-container .article-thumbnail-container {
+    text-align: center ;
+    padding: 20px 0;
+    width: var(--col-4);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+#article-container article .article-content-container .article-thumbnail-container img {
+    width: 100% ;
+    height: 160px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    filter: grayscale(20%);
+    transition: filter 250ms ease;
+}
+#article-container article:hover .article-content-container .article-thumbnail-container img {
+    filter: grayscale(0%);
+}
+#article-container article .article-content-container .article-describe-container {
+    width: var(--col-8);
+    font-size: 18px;
+    line-height: 30px;
+    text-align-last: center;
+}
+#article-container article footer {
+    height: 50px;
+    background-color: #fafafa;
+    border-top: 2px solid #eee;
+    padding: 0 20px;
+    border-radius: 0 0 3px 3px ;
+}
+#article-container article footer ul{
+    list-style: none;
+    height: inherit;
+    display: inline-block;
+}
+#article-container article footer ul li {
+    height: inherit ;
+    line-height: 53px;
+    display: inline-block;
+    margin-right: 15px;
+}
+#article-container article footer ul>li:nth-child(4) .icon{
+    top: 10px;
+}
+#article-container article footer ul li:last-child {
+    margin-right: unset;
+}
+
+#article-container article footer ul li a {
+    display: inline-block;
+    height: inherit ;
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+}
+#article-container article footer ul li.article-category ul li {
+    margin-right: 2px;
+}
+#article-container article footer ul li.article-category ul li:last-child {
+    margin-right: unset;
+}
+#article-container article footer ul li.article-category ul li::after {
+    content: ",";
+    margin-left: 5px;
+    color : rgb(147, 147, 147);
+}
+#article-container article footer ul li.article-category ul li:last-child::after {
+    content: unset;
+}
+
+#article-container article footer ul li.article-category a{
+    text-transform: capitalize;
+}
+#article-container article footer ul li a:hover {
+    color: #7254ff;
+}
+#article-container article footer ul li .icon {
+    width: 30px ;
+    height: 30px ;
+    position: relative;
+    top: 8px;
+}
+.article-author-info a img {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    float: left;
+    position: relative;
+    top: 6px;
+    margin-right: 10px ;
+}
+.article-author-info a strong {
+    text-transform: capitalize;
+}
+#article-container article footer .article-read-more {
+    float: right;
+    height: 40px;
+    line-height: 45px;
+    position: relative;
+    top: 5px;
+}
+#article-container article footer .article-read-more a {
+    border-radius: 25px;
+    background-color: #f8f6f6;
+    text-transform: capitalize;
+    text-decoration: none ;
+    color: inherit;
+    display: inline-block;
+    padding: 0 15px;
+    height: inherit;
+    transition: background-color 100ms linear;
+}
+#article-container article footer .article-read-more a:hover {
+    color: #7254ff;
+    background-color: #efefef;
+}
+#article-container article footer .article-read-more a img {
+    position: relative;
+    top: 6px;
+}

@@ -1,0 +1,15 @@
+#about-blog-footer-column .footer-column-content-container p {
+    line-height: 26px ;
+    text-indent: 10px;
+}
+#about-blog-footer-column>.footer-column-content-container>ul#socials {
+    margin-top: 15px;
+}
+#about-blog-footer-column>.footer-column-content-container>ul#socials>li{
+    display: inline-block ;
+    list-style: none ;
+}
+#about-blog-footer-column .footer-column-content-container>ul#socials>li>a>img {
+    width: 30px ;
+    height: 30px ;
+}

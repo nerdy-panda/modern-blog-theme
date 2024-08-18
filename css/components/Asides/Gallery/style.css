@@ -1,0 +1,27 @@
+#aside-gallery .aside-content-container {
+    padding-bottom: 5px ;
+}
+#aside-gallery .aside-content-container ul {
+    text-align: center ;
+}
+#aside-gallery .aside-content-container ul li  {
+    display: inline-block;
+    width: 30% ;
+    height: 70px ;
+    margin-right: 2%;
+    margin-bottom: 15px ;
+}
+#aside-gallery .aside-content-container ul li:nth-child(3n) img {
+    margin-right: unset;
+}
+
+#aside-gallery .aside-content-container ul li a {
+    display: inline-block;
+    width: 100% ;
+    height: 100% ;
+}
+#aside-gallery .aside-content-container ul li a img {
+    width: 100%;
+    height: 100% ;
+    border-radius: 10px ;
+}

@@ -1,0 +1,23 @@
+
+#links-footer-column {
+    width: 22%;
+}
+#links-footer-column>.footer-column-content-container>ul {
+    display: inline-block;
+    vertical-align: top ;
+}
+#links-footer-column>.footer-column-content-container>ul:last-child {
+    float:right;
+}
+#links-footer-column>.footer-column-content-container>ul>li {
+    list-style: none;
+    margin-bottom: 10px ;
+}
+#links-footer-column>.footer-column-content-container>ul>li>a {
+    text-decoration: none ;
+    color: inherit ;
+    font-size: 18px ;
+}
+#links-footer-column>.footer-column-content-container>ul>li>a:hover {
+    color: #7254ff;
+}

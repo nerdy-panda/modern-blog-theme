@@ -1,2 +1,10 @@
 @import url("../lib/bootstrap.css");
-@import url('../components/welcome.css');
+@import url("../lib/componentLoaders/home.css");
+body > main {
+    margin-top: 30px;
+}
+#article-container {
+    width: var(--col-8);
+    float: right;
+    margin-right: var(--col-1);
+}

@@ -1,10 +1,9 @@
 @import url("variables.css");
 @import url('reset.css');
 @import url("fonts.css");
+@import url("animation.css");
 @import url("class.css");
-body {
-    direction: rtl ;
-    background-color: rgb(23, 23, 23);
-    color: rgb(6, 213, 144);
-    line-height: 2;
-}
+@import url("init.css");
+@import url("photoswipe.css");
+@import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
+

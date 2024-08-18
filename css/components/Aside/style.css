@@ -1,0 +1,35 @@
+#pageAside {
+    width: var(--col-3);
+    float: right;
+}
+.aside-section {
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+.aside-section:last-of-type {
+    margin-bottom: unset;
+}
+.aside-section>header {
+    background-color:#fafafa;
+    padding: 0 20px;
+    border-radius: 3px 3px 0 0 ;
+    height: 60px;
+    line-height: 70px;
+}
+.aside-section>header>img.aside-section-icon {
+    width: 34px;
+    height: 34px;
+    margin-right: 5px;
+    vertical-align: -6px;
+}
+.aside-section>header>.aside-section-title {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.aside-section>.aside-content-container {
+    padding: 20px 30px;
+}
