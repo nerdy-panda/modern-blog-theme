@@ -7,13 +7,14 @@
 }
 #article-container article header {
     background-color: #fafafa;
-    height: 60px;
-    padding: 0 20px ;
-    line-height: 70px;
+    min-height: 60px;
+    padding: 20px ;
+    box-sizing: border-box ;
     border-radius: 3px 3px 0 0;
 }
 #article-container article header h2 {
     font-size: 20px;
+    line-height: 34px;
 }
 #article-container article .article-content-container {
     height: 100%;
@@ -30,7 +31,7 @@
     width: var(--col-4);
     box-sizing: border-box;
     flex-shrink: 0;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 #article-container article .article-content-container .article-thumbnail-container img {
     width: 100% ;
@@ -39,10 +40,13 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
     filter: grayscale(20%);
-    transition: filter 250ms ease;
+    transition-property: filter , opacity ;
+    transition-duration: 250ms ;
+    transition-timing-function: ease ;
 }
 #article-container article:hover .article-content-container .article-thumbnail-container img {
     filter: grayscale(0%);
+    opacity: 1 ;
 }
 #article-container article .article-content-container .article-describe-container {
     width: var(--col-8);
@@ -62,17 +66,17 @@
     height: inherit;
     display: inline-block;
 }
-#article-container article footer ul li {
+#article-container article footer  ul li {
     height: inherit ;
     line-height: 53px;
     display: inline-block;
-    margin-right: 15px;
+    margin-left: 15px;
 }
 #article-container article footer ul>li:nth-child(4) .icon{
     top: 10px;
 }
 #article-container article footer ul li:last-child {
-    margin-right: unset;
+    margin-left: unset ;
 }
 
 #article-container article footer ul li a {
@@ -82,14 +86,14 @@
     color: rgb(147, 147, 147);
 }
 #article-container article footer ul li.article-category ul li {
-    margin-right: 2px;
+    margin-left: 2px;
 }
 #article-container article footer ul li.article-category ul li:last-child {
     margin-right: unset;
 }
 #article-container article footer ul li.article-category ul li::after {
     content: ",";
-    margin-left: 5px;
+    margin-right: 5px;
     color : rgb(147, 147, 147);
 }
 #article-container article footer ul li.article-category ul li:last-child::after {
@@ -112,16 +116,16 @@
     width: 36px;
     height: 36px;
     border-radius: 100%;
-    float: left;
+    float: right;
     position: relative;
     top: 6px;
-    margin-right: 10px ;
+    margin-left: 10px ;
 }
 .article-author-info a strong {
     text-transform: capitalize;
 }
 #article-container article footer .article-read-more {
-    float: right;
+    float: left ;
     height: 40px;
     line-height: 45px;
     position: relative;
@@ -141,6 +145,10 @@
 #article-container article footer .article-read-more a:hover {
     color: #7254ff;
     background-color: #efefef;
+}
+#article-container article footer .article-read-more a span {
+    display: inline-block;
+    transform: translateY(-1px);
 }
 #article-container article footer .article-read-more a img {
     position: relative;

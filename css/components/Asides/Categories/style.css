@@ -1,6 +1,7 @@
 
 #aside-categories>.aside-content-container>ul{
     list-style-position: inside;
+    direction: ltr ;
 }
 #aside-categories>.aside-content-container>ul>li {
     margin-bottom: 15px;

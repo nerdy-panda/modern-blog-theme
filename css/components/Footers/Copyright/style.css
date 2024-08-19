@@ -1,9 +1,19 @@
 #copyright-container {
     text-align: center;
     text-transform: capitalize;
+    margin-top: 30px ;
+}
+#copyright-container::before {
+    display: block ;
+    content: "";
+    width: var(--col-8);
+    height: 1px ;
+    margin: 0 auto;
+    margin-bottom: 35px ;
+    background-color: #eee ;
 }
 #copyright-container #copyright {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 #copyright-container a {
     text-underline-offset: 6px ;

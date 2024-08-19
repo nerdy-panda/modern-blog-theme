@@ -11,10 +11,10 @@ footer#page-footer {
     width: 32% ;
     display: inline-block;
     vertical-align: top ;
-    margin-right: 6.7%;
+    margin-left: 6.6%;
 }
 .footer-column:last-child{
-    margin-right: unset ;
+    margin-left: unset ;
 }
 .footer-column-header-container {
     padding: 15px 0 ;

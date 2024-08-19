@@ -27,6 +27,12 @@
 #aside-recent-comments>.aside-content-container>ul>li a:first-child {
     text-transform: capitalize;
 }
+.comment-arrow {
+    display: inline-block;
+    font-size: 14px;
+    transform: rotateY(-180deg);
+    margin: 0 2px;
+}
 #aside-recent-comments>.aside-content-container>ul>li h3 {
     display: inline;
     line-height: 24px;

@@ -21,14 +21,16 @@
 .aside-section>header>img.aside-section-icon {
     width: 34px;
     height: 34px;
-    margin-right: 5px;
-    vertical-align: -6px;
+    margin-left: 5px;
+    vertical-align: -8px;
 }
 .aside-section>header>.aside-section-title {
     display: inline-block;
     font-size: 22px;
     font-weight: bold;
     text-transform: capitalize;
+    line-height: initial;
+    vertical-align: 3px;
 }
 .aside-section>.aside-content-container {
     padding: 20px 30px;

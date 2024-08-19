@@ -1,3 +1,6 @@
+#aside-tags .aside-content-container ul{
+    direction: ltr ;
+}
 #aside-tags .aside-content-container ul li {
     display: inline-block;
     list-style: none ;

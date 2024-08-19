@@ -1,15 +1,17 @@
 #about-blog-footer-column .footer-column-content-container p {
-    line-height: 26px ;
+    line-height: 38px ;
     text-indent: 10px;
 }
 #about-blog-footer-column>.footer-column-content-container>ul#socials {
     margin-top: 15px;
+    direction: ltr;
+    text-align: center;
 }
 #about-blog-footer-column>.footer-column-content-container>ul#socials>li{
     display: inline-block ;
     list-style: none ;
 }
 #about-blog-footer-column .footer-column-content-container>ul#socials>li>a>img {
-    width: 30px ;
-    height: 30px ;
+    width: 34px ;
+    height: 34px ;
 }

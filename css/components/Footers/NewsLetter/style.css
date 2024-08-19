@@ -1,16 +1,16 @@
 #news-letter-footer-column form {
     position: relative ;
+    text-align: center ;
 }
 #news-letter-email-field {
     color: inherit ;
     font-family: inherit ;
     font-size: inherit;
-    width: var(--col-8);
+    width: var(--col-10);
     border : 1px solid #b0b0b0;
     border-radius: 3px ;
     box-sizing: border-box ;
     padding: 8px ;
-    margin-right: 10px;
     text-indent: 85px ;
     transition: text-indent 350ms linear ;
 }
@@ -21,8 +21,8 @@
 #news-letter-footer-column label {
     background-color: white ;
     position: absolute;
-    left: 1px;
-    top: 3px ;
+    right: 13px;
+    top: 5px ;
     transition: top 250ms linear ;
     padding: 2px 6px ;
     border-radius: 3px;
@@ -35,23 +35,26 @@
     top: -18px ;
 }
 #news-letter-footer-column button {
+    width: 42px;
+    height: 42px;
     background-color: #595959;
     font-family: inherit;
     font-size: inherit;
     color: white ;
-    padding: 3px 10px ;
     outline: unset;
     border: unset;
-    border-radius: 3px;
+    border-radius: 100% ;
     transition: background-color 300ms linear ;
     vertical-align: middle ;
+
 }
 #news-letter-submit-button:hover {
     cursor: pointer ;
     background-color: #7254ff;
 }
 #news-letter-submit-button img {
-    width: 30px ;
-    height: 30px ;
+    width: 24px ;
+    height: 24px ;
     vertical-align: -10px ;
+    transform: rotateY(-180deg);
 }

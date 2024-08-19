@@ -10,20 +10,30 @@
 }
 #brand {
     height: inherit;
-    float: left;
+    float: right ;
     box-sizing: border-box;
-    padding: 21px 25px;
+}
+#brand-logo-container {
+    float: right ;
+    height: 100% ;
+}
+#brand-logo {
+    height: 100% ;
+}
+#brand-describe-container {
+    float: right ;
+    padding: 20px 0 ;
 }
 #brand h1 {
-    font-size: 32px;
-    margin-bottom: 3px;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 #brand h2 {
-    font-size: 18px;
+    
 }
 #pageNavbar nav {
     height: inherit;
-    float: right;
+    float: left ;
 }
 #pageNavbar nav ul {
     height: inherit;
